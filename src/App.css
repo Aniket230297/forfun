@@ -1,0 +1,53 @@
+.signupform{
+    width:400px;
+    height:300px;
+    background-color: antiquewhite;
+    
+}
+
+form{
+display: flex;
+flex-direction: column;
+width:300px;
+margin: 30px;
+margin-top: 30px;
+/* gap: 20px; */
+}
+
+.zukudiv{
+    width:100vw;
+    height:300px;
+    border:1px solid red;
+}
+
+
+form >input{
+    height:25px;
+    margin-top: 20px;
+
+}
+
+.signupbtn{
+    width:160px;
+    height: 25px; 
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.msgdisplay{
+    width:300px;
+    height:30px;
+    /* border:1px solid red; */
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom:-35px;
+    
+}
+
+.msgerror{
+    color: red;
+}
+
+.msgsuccess{
+    color:green;
+}
